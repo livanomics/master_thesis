@@ -1,0 +1,16 @@
+"group","variable","n","shapiro_p","normal"
+"siC","percentage_gene_gc_content",9356,7.58e-35,FALSE
+"siC","length_kb",9356,3.92e-80,FALSE
+"siC","exons_n",9356,2.46e-76,FALSE
+"siUAP56_UP","percentage_gene_gc_content",449,2.98e-17,FALSE
+"siUAP56_UP","length_kb",449,5.4e-28,FALSE
+"siUAP56_UP","exons_n",449,2.36e-22,FALSE
+"siUAP56_DOWN","percentage_gene_gc_content",875,0.314,TRUE
+"siUAP56_DOWN","length_kb",875,1.17e-41,FALSE
+"siUAP56_DOWN","exons_n",875,2.14e-42,FALSE
+"siBRG1_UP","percentage_gene_gc_content",1831,1.97e-12,FALSE
+"siBRG1_UP","length_kb",1831,4.41e-58,FALSE
+"siBRG1_UP","exons_n",1831,4.16e-55,FALSE
+"siBRG1_DOWN","percentage_gene_gc_content",167,6.92e-08,FALSE
+"siBRG1_DOWN","length_kb",167,3.1e-19,FALSE
+"siBRG1_DOWN","exons_n",167,5.12e-18,FALSE

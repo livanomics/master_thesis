@@ -1,0 +1,5 @@
+"list","rho","p_value","p_adj","significant"
+"siUAP56_UP",-0.551,0.00595,0.00793,TRUE
+"siBRG1_UP",0.738,6e-05,0.00012,TRUE
+"siBRG1_DOWN",-0.396,0.0566,0.0566,FALSE
+"siUAP56_DOWN",0.753,3.46e-05,0.00012,TRUE

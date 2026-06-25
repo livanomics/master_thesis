@@ -1,0 +1,757 @@
+INFO  @ 31 May 2026 10:59:58: [36 MB] 
+# Command line: callpeak -t /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/siBRG1_1.fwd.bam -c /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/RNH_pooled.fwd.bam -f BAMPE -g hs -n siBRG1_1_fwd --outdir /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control --keep-dup all --broad -q 0.05 --broad-cutoff 0.1
+# ARGUMENTS LIST:
+# name = siBRG1_1_fwd
+# format = BAMPE
+# ChIP-seq file = ['/home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/siBRG1_1.fwd.bam']
+# control file = ['/home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/RNH_pooled.fwd.bam']
+# effective genome size = 2.91e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff for narrow/strong regions = 5.00e-02
+# qvalue cutoff for broad/weak regions = 1.00e-01
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is on
+# Paired-End mode is on
+ 
+INFO  @ 31 May 2026 10:59:58: [36 MB] #1 read fragment files... 
+INFO  @ 31 May 2026 10:59:58: [36 MB] #1 read treatment fragments... 
+INFO  @ 31 May 2026 11:00:01: [73 MB]  1000000 fragments parsed 
+INFO  @ 31 May 2026 11:00:04: [84 MB]  2000000 fragments parsed 
+INFO  @ 31 May 2026 11:00:06: [94 MB]  3000000 fragments parsed 
+INFO  @ 31 May 2026 11:00:08: [99 MB] 3606593 fragments have been read. 
+INFO  @ 31 May 2026 11:00:10: [99 MB] #1.2 read input fragments... 
+INFO  @ 31 May 2026 11:00:12: [108 MB]  1000000 fragments parsed 
+INFO  @ 31 May 2026 11:00:15: [117 MB]  2000000 fragments parsed 
+INFO  @ 31 May 2026 11:00:18: [127 MB]  3000000 fragments parsed 
+INFO  @ 31 May 2026 11:00:21: [134 MB]  4000000 fragments parsed 
+INFO  @ 31 May 2026 11:00:23: [143 MB]  5000000 fragments parsed 
+INFO  @ 31 May 2026 11:00:26: [150 MB]  6000000 fragments parsed 
+INFO  @ 31 May 2026 11:00:29: [159 MB]  7000000 fragments parsed 
+INFO  @ 31 May 2026 11:00:31: [168 MB]  8000000 fragments parsed 
+INFO  @ 31 May 2026 11:00:34: [176 MB]  9000000 fragments parsed 
+INFO  @ 31 May 2026 11:00:37: [184 MB]  10000000 fragments parsed 
+INFO  @ 31 May 2026 11:00:38: [186 MB] 10290648 fragments have been read. 
+INFO  @ 31 May 2026 11:00:43: [186 MB] #1 mean fragment size is determined as 143.3 bp from treatment 
+INFO  @ 31 May 2026 11:00:43: [186 MB] #1 note: mean fragment size in control is 143.0 bp -- value ignored 
+INFO  @ 31 May 2026 11:00:43: [186 MB] #1 fragment size = 143.3 
+INFO  @ 31 May 2026 11:00:43: [186 MB] #1  total fragments in treatment: 3606593 
+INFO  @ 31 May 2026 11:00:43: [186 MB] #1  total fragments in control: 10290648 
+INFO  @ 31 May 2026 11:00:43: [186 MB] #1 finished! 
+INFO  @ 31 May 2026 11:00:43: [186 MB] #2 Build Peak Model... 
+INFO  @ 31 May 2026 11:00:43: [186 MB] #2 Skipped... 
+INFO  @ 31 May 2026 11:00:43: [186 MB] #3 Call peaks... 
+INFO  @ 31 May 2026 11:00:43: [186 MB] #3 Call broad peaks with given level1 -log10qvalue cutoff and level2: 1.301030, 1.000000... 
+INFO  @ 31 May 2026 11:00:43: [186 MB] #3 Pre-compute pvalue-qvalue table... 
+INFO  @ 31 May 2026 11:01:46: [581 MB] #3 Call peaks for each chromosome... 
+INFO  @ 31 May 2026 11:02:03: [581 MB] #4 Write output xls file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siBRG1_1_fwd_peaks.xls 
+INFO  @ 31 May 2026 11:02:03: [581 MB] #4 Write broad peak in broadPeak format file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siBRG1_1_fwd_peaks.broadPeak 
+INFO  @ 31 May 2026 11:02:03: [581 MB] #4 Write broad peak in bed12/gappedPeak format file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siBRG1_1_fwd_peaks.gappedPeak 
+INFO  @ 31 May 2026 11:02:03: [581 MB] Done! 
+INFO  @ 31 May 2026 11:02:04: [36 MB] 
+# Command line: callpeak -t /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/siBRG1_1.rev.bam -c /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/RNH_pooled.rev.bam -f BAMPE -g hs -n siBRG1_1_rev --outdir /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control --keep-dup all --broad -q 0.05 --broad-cutoff 0.1
+# ARGUMENTS LIST:
+# name = siBRG1_1_rev
+# format = BAMPE
+# ChIP-seq file = ['/home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/siBRG1_1.rev.bam']
+# control file = ['/home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/RNH_pooled.rev.bam']
+# effective genome size = 2.91e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff for narrow/strong regions = 5.00e-02
+# qvalue cutoff for broad/weak regions = 1.00e-01
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is on
+# Paired-End mode is on
+ 
+INFO  @ 31 May 2026 11:02:04: [36 MB] #1 read fragment files... 
+INFO  @ 31 May 2026 11:02:04: [36 MB] #1 read treatment fragments... 
+INFO  @ 31 May 2026 11:02:06: [75 MB]  1000000 fragments parsed 
+INFO  @ 31 May 2026 11:02:09: [83 MB]  2000000 fragments parsed 
+INFO  @ 31 May 2026 11:02:12: [93 MB]  3000000 fragments parsed 
+INFO  @ 31 May 2026 11:02:13: [98 MB] 3435375 fragments have been read. 
+INFO  @ 31 May 2026 11:02:14: [98 MB] #1.2 read input fragments... 
+INFO  @ 31 May 2026 11:02:17: [107 MB]  1000000 fragments parsed 
+INFO  @ 31 May 2026 11:02:20: [116 MB]  2000000 fragments parsed 
+INFO  @ 31 May 2026 11:02:22: [126 MB]  3000000 fragments parsed 
+INFO  @ 31 May 2026 11:02:25: [133 MB]  4000000 fragments parsed 
+INFO  @ 31 May 2026 11:02:27: [142 MB]  5000000 fragments parsed 
+INFO  @ 31 May 2026 11:02:30: [149 MB]  6000000 fragments parsed 
+INFO  @ 31 May 2026 11:02:33: [158 MB]  7000000 fragments parsed 
+INFO  @ 31 May 2026 11:02:35: [165 MB]  8000000 fragments parsed 
+INFO  @ 31 May 2026 11:02:38: [174 MB]  9000000 fragments parsed 
+INFO  @ 31 May 2026 11:02:40: [181 MB] 9922405 fragments have been read. 
+INFO  @ 31 May 2026 11:02:45: [181 MB] #1 mean fragment size is determined as 143.1 bp from treatment 
+INFO  @ 31 May 2026 11:02:45: [181 MB] #1 note: mean fragment size in control is 143.1 bp -- value ignored 
+INFO  @ 31 May 2026 11:02:45: [181 MB] #1 fragment size = 143.1 
+INFO  @ 31 May 2026 11:02:45: [181 MB] #1  total fragments in treatment: 3435375 
+INFO  @ 31 May 2026 11:02:45: [181 MB] #1  total fragments in control: 9922405 
+INFO  @ 31 May 2026 11:02:45: [181 MB] #1 finished! 
+INFO  @ 31 May 2026 11:02:45: [181 MB] #2 Build Peak Model... 
+INFO  @ 31 May 2026 11:02:45: [181 MB] #2 Skipped... 
+INFO  @ 31 May 2026 11:02:45: [181 MB] #3 Call peaks... 
+INFO  @ 31 May 2026 11:02:45: [181 MB] #3 Call broad peaks with given level1 -log10qvalue cutoff and level2: 1.301030, 1.000000... 
+INFO  @ 31 May 2026 11:02:45: [181 MB] #3 Pre-compute pvalue-qvalue table... 
+INFO  @ 31 May 2026 11:03:47: [548 MB] #3 Call peaks for each chromosome... 
+INFO  @ 31 May 2026 11:04:03: [548 MB] #4 Write output xls file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siBRG1_1_rev_peaks.xls 
+INFO  @ 31 May 2026 11:04:03: [548 MB] #4 Write broad peak in broadPeak format file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siBRG1_1_rev_peaks.broadPeak 
+INFO  @ 31 May 2026 11:04:03: [548 MB] #4 Write broad peak in bed12/gappedPeak format file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siBRG1_1_rev_peaks.gappedPeak 
+INFO  @ 31 May 2026 11:04:03: [548 MB] Done! 
+INFO  @ 31 May 2026 11:04:03: [36 MB] 
+# Command line: callpeak -t /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/siBRG1_2.fwd.bam -c /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/RNH_pooled.fwd.bam -f BAMPE -g hs -n siBRG1_2_fwd --outdir /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control --keep-dup all --broad -q 0.05 --broad-cutoff 0.1
+# ARGUMENTS LIST:
+# name = siBRG1_2_fwd
+# format = BAMPE
+# ChIP-seq file = ['/home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/siBRG1_2.fwd.bam']
+# control file = ['/home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/RNH_pooled.fwd.bam']
+# effective genome size = 2.91e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff for narrow/strong regions = 5.00e-02
+# qvalue cutoff for broad/weak regions = 1.00e-01
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is on
+# Paired-End mode is on
+ 
+INFO  @ 31 May 2026 11:04:03: [36 MB] #1 read fragment files... 
+INFO  @ 31 May 2026 11:04:03: [36 MB] #1 read treatment fragments... 
+INFO  @ 31 May 2026 11:04:06: [75 MB]  1000000 fragments parsed 
+INFO  @ 31 May 2026 11:04:09: [84 MB]  2000000 fragments parsed 
+INFO  @ 31 May 2026 11:04:11: [94 MB]  3000000 fragments parsed 
+INFO  @ 31 May 2026 11:04:12: [96 MB] 3207485 fragments have been read. 
+INFO  @ 31 May 2026 11:04:13: [96 MB] #1.2 read input fragments... 
+INFO  @ 31 May 2026 11:04:16: [105 MB]  1000000 fragments parsed 
+INFO  @ 31 May 2026 11:04:19: [113 MB]  2000000 fragments parsed 
+INFO  @ 31 May 2026 11:04:21: [123 MB]  3000000 fragments parsed 
+INFO  @ 31 May 2026 11:04:24: [131 MB]  4000000 fragments parsed 
+INFO  @ 31 May 2026 11:04:27: [139 MB]  5000000 fragments parsed 
+INFO  @ 31 May 2026 11:04:29: [147 MB]  6000000 fragments parsed 
+INFO  @ 31 May 2026 11:04:32: [154 MB]  7000000 fragments parsed 
+INFO  @ 31 May 2026 11:04:35: [163 MB]  8000000 fragments parsed 
+INFO  @ 31 May 2026 11:04:37: [171 MB]  9000000 fragments parsed 
+INFO  @ 31 May 2026 11:04:40: [180 MB]  10000000 fragments parsed 
+INFO  @ 31 May 2026 11:04:41: [182 MB] 10290648 fragments have been read. 
+INFO  @ 31 May 2026 11:04:46: [182 MB] #1 mean fragment size is determined as 143.7 bp from treatment 
+INFO  @ 31 May 2026 11:04:46: [182 MB] #1 note: mean fragment size in control is 143.0 bp -- value ignored 
+INFO  @ 31 May 2026 11:04:46: [182 MB] #1 fragment size = 143.7 
+INFO  @ 31 May 2026 11:04:46: [182 MB] #1  total fragments in treatment: 3207485 
+INFO  @ 31 May 2026 11:04:46: [182 MB] #1  total fragments in control: 10290648 
+INFO  @ 31 May 2026 11:04:46: [182 MB] #1 finished! 
+INFO  @ 31 May 2026 11:04:46: [182 MB] #2 Build Peak Model... 
+INFO  @ 31 May 2026 11:04:46: [182 MB] #2 Skipped... 
+INFO  @ 31 May 2026 11:04:46: [182 MB] #3 Call peaks... 
+INFO  @ 31 May 2026 11:04:46: [182 MB] #3 Call broad peaks with given level1 -log10qvalue cutoff and level2: 1.301030, 1.000000... 
+INFO  @ 31 May 2026 11:04:46: [182 MB] #3 Pre-compute pvalue-qvalue table... 
+INFO  @ 31 May 2026 11:05:48: [564 MB] #3 Call peaks for each chromosome... 
+INFO  @ 31 May 2026 11:06:05: [564 MB] #4 Write output xls file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siBRG1_2_fwd_peaks.xls 
+INFO  @ 31 May 2026 11:06:05: [564 MB] #4 Write broad peak in broadPeak format file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siBRG1_2_fwd_peaks.broadPeak 
+INFO  @ 31 May 2026 11:06:05: [564 MB] #4 Write broad peak in bed12/gappedPeak format file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siBRG1_2_fwd_peaks.gappedPeak 
+INFO  @ 31 May 2026 11:06:05: [564 MB] Done! 
+INFO  @ 31 May 2026 11:06:05: [36 MB] 
+# Command line: callpeak -t /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/siBRG1_2.rev.bam -c /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/RNH_pooled.rev.bam -f BAMPE -g hs -n siBRG1_2_rev --outdir /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control --keep-dup all --broad -q 0.05 --broad-cutoff 0.1
+# ARGUMENTS LIST:
+# name = siBRG1_2_rev
+# format = BAMPE
+# ChIP-seq file = ['/home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/siBRG1_2.rev.bam']
+# control file = ['/home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/RNH_pooled.rev.bam']
+# effective genome size = 2.91e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff for narrow/strong regions = 5.00e-02
+# qvalue cutoff for broad/weak regions = 1.00e-01
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is on
+# Paired-End mode is on
+ 
+INFO  @ 31 May 2026 11:06:05: [36 MB] #1 read fragment files... 
+INFO  @ 31 May 2026 11:06:05: [36 MB] #1 read treatment fragments... 
+INFO  @ 31 May 2026 11:06:08: [76 MB]  1000000 fragments parsed 
+INFO  @ 31 May 2026 11:06:11: [84 MB]  2000000 fragments parsed 
+INFO  @ 31 May 2026 11:06:13: [97 MB]  3000000 fragments parsed 
+INFO  @ 31 May 2026 11:06:14: [98 MB] 3078077 fragments have been read. 
+INFO  @ 31 May 2026 11:06:15: [98 MB] #1.2 read input fragments... 
+INFO  @ 31 May 2026 11:06:17: [106 MB]  1000000 fragments parsed 
+INFO  @ 31 May 2026 11:06:20: [115 MB]  2000000 fragments parsed 
+INFO  @ 31 May 2026 11:06:23: [125 MB]  3000000 fragments parsed 
+INFO  @ 31 May 2026 11:06:25: [134 MB]  4000000 fragments parsed 
+INFO  @ 31 May 2026 11:06:28: [141 MB]  5000000 fragments parsed 
+INFO  @ 31 May 2026 11:06:31: [149 MB]  6000000 fragments parsed 
+INFO  @ 31 May 2026 11:06:33: [156 MB]  7000000 fragments parsed 
+INFO  @ 31 May 2026 11:06:36: [166 MB]  8000000 fragments parsed 
+INFO  @ 31 May 2026 11:06:39: [173 MB]  9000000 fragments parsed 
+INFO  @ 31 May 2026 11:06:41: [181 MB] 9922405 fragments have been read. 
+INFO  @ 31 May 2026 11:06:46: [181 MB] #1 mean fragment size is determined as 143.8 bp from treatment 
+INFO  @ 31 May 2026 11:06:46: [181 MB] #1 note: mean fragment size in control is 143.1 bp -- value ignored 
+INFO  @ 31 May 2026 11:06:46: [181 MB] #1 fragment size = 143.8 
+INFO  @ 31 May 2026 11:06:46: [181 MB] #1  total fragments in treatment: 3078077 
+INFO  @ 31 May 2026 11:06:46: [181 MB] #1  total fragments in control: 9922405 
+INFO  @ 31 May 2026 11:06:46: [181 MB] #1 finished! 
+INFO  @ 31 May 2026 11:06:46: [181 MB] #2 Build Peak Model... 
+INFO  @ 31 May 2026 11:06:46: [181 MB] #2 Skipped... 
+INFO  @ 31 May 2026 11:06:46: [181 MB] #3 Call peaks... 
+INFO  @ 31 May 2026 11:06:46: [181 MB] #3 Call broad peaks with given level1 -log10qvalue cutoff and level2: 1.301030, 1.000000... 
+INFO  @ 31 May 2026 11:06:46: [181 MB] #3 Pre-compute pvalue-qvalue table... 
+INFO  @ 31 May 2026 11:07:46: [590 MB] #3 Call peaks for each chromosome... 
+INFO  @ 31 May 2026 11:08:02: [590 MB] #4 Write output xls file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siBRG1_2_rev_peaks.xls 
+INFO  @ 31 May 2026 11:08:02: [590 MB] #4 Write broad peak in broadPeak format file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siBRG1_2_rev_peaks.broadPeak 
+INFO  @ 31 May 2026 11:08:02: [590 MB] #4 Write broad peak in bed12/gappedPeak format file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siBRG1_2_rev_peaks.gappedPeak 
+INFO  @ 31 May 2026 11:08:02: [590 MB] Done! 
+INFO  @ 31 May 2026 10:47:36: [36 MB] 
+# Command line: callpeak -t /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/siC_1.fwd.bam -c /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/RNH_pooled.fwd.bam -f BAMPE -g hs -n siC_1_fwd --outdir /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control --keep-dup all --broad -q 0.05 --broad-cutoff 0.1
+# ARGUMENTS LIST:
+# name = siC_1_fwd
+# format = BAMPE
+# ChIP-seq file = ['/home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/siC_1.fwd.bam']
+# control file = ['/home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/RNH_pooled.fwd.bam']
+# effective genome size = 2.91e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff for narrow/strong regions = 5.00e-02
+# qvalue cutoff for broad/weak regions = 1.00e-01
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is on
+# Paired-End mode is on
+ 
+INFO  @ 31 May 2026 10:47:36: [36 MB] #1 read fragment files... 
+INFO  @ 31 May 2026 10:47:36: [36 MB] #1 read treatment fragments... 
+INFO  @ 31 May 2026 10:47:39: [75 MB]  1000000 fragments parsed 
+INFO  @ 31 May 2026 10:47:41: [88 MB]  2000000 fragments parsed 
+INFO  @ 31 May 2026 10:47:44: [94 MB]  3000000 fragments parsed 
+INFO  @ 31 May 2026 10:47:44: [99 MB] 3183455 fragments have been read. 
+INFO  @ 31 May 2026 10:47:45: [99 MB] #1.2 read input fragments... 
+INFO  @ 31 May 2026 10:47:48: [105 MB]  1000000 fragments parsed 
+INFO  @ 31 May 2026 10:47:51: [114 MB]  2000000 fragments parsed 
+INFO  @ 31 May 2026 10:47:53: [124 MB]  3000000 fragments parsed 
+INFO  @ 31 May 2026 10:47:56: [131 MB]  4000000 fragments parsed 
+INFO  @ 31 May 2026 10:47:58: [139 MB]  5000000 fragments parsed 
+INFO  @ 31 May 2026 10:48:01: [147 MB]  6000000 fragments parsed 
+INFO  @ 31 May 2026 10:48:03: [155 MB]  7000000 fragments parsed 
+INFO  @ 31 May 2026 10:48:06: [164 MB]  8000000 fragments parsed 
+INFO  @ 31 May 2026 10:48:09: [172 MB]  9000000 fragments parsed 
+INFO  @ 31 May 2026 10:48:11: [181 MB]  10000000 fragments parsed 
+INFO  @ 31 May 2026 10:48:12: [183 MB] 10290648 fragments have been read. 
+INFO  @ 31 May 2026 10:48:17: [183 MB] #1 mean fragment size is determined as 140.0 bp from treatment 
+INFO  @ 31 May 2026 10:48:17: [183 MB] #1 note: mean fragment size in control is 143.0 bp -- value ignored 
+INFO  @ 31 May 2026 10:48:17: [183 MB] #1 fragment size = 140.0 
+INFO  @ 31 May 2026 10:48:17: [183 MB] #1  total fragments in treatment: 3183455 
+INFO  @ 31 May 2026 10:48:17: [183 MB] #1  total fragments in control: 10290648 
+INFO  @ 31 May 2026 10:48:17: [183 MB] #1 finished! 
+INFO  @ 31 May 2026 10:48:17: [183 MB] #2 Build Peak Model... 
+INFO  @ 31 May 2026 10:48:17: [183 MB] #2 Skipped... 
+INFO  @ 31 May 2026 10:48:17: [183 MB] #3 Call peaks... 
+INFO  @ 31 May 2026 10:48:17: [183 MB] #3 Call broad peaks with given level1 -log10qvalue cutoff and level2: 1.301030, 1.000000... 
+INFO  @ 31 May 2026 10:48:17: [183 MB] #3 Pre-compute pvalue-qvalue table... 
+INFO  @ 31 May 2026 10:49:16: [572 MB] #3 Call peaks for each chromosome... 
+INFO  @ 31 May 2026 10:49:29: [572 MB] #4 Write output xls file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siC_1_fwd_peaks.xls 
+INFO  @ 31 May 2026 10:49:29: [572 MB] #4 Write broad peak in broadPeak format file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siC_1_fwd_peaks.broadPeak 
+INFO  @ 31 May 2026 10:49:29: [572 MB] #4 Write broad peak in bed12/gappedPeak format file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siC_1_fwd_peaks.gappedPeak 
+INFO  @ 31 May 2026 10:49:29: [572 MB] Done! 
+INFO  @ 31 May 2026 10:49:29: [36 MB] 
+# Command line: callpeak -t /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/siC_1.rev.bam -c /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/RNH_pooled.rev.bam -f BAMPE -g hs -n siC_1_rev --outdir /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control --keep-dup all --broad -q 0.05 --broad-cutoff 0.1
+# ARGUMENTS LIST:
+# name = siC_1_rev
+# format = BAMPE
+# ChIP-seq file = ['/home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/siC_1.rev.bam']
+# control file = ['/home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/RNH_pooled.rev.bam']
+# effective genome size = 2.91e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff for narrow/strong regions = 5.00e-02
+# qvalue cutoff for broad/weak regions = 1.00e-01
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is on
+# Paired-End mode is on
+ 
+INFO  @ 31 May 2026 10:49:29: [36 MB] #1 read fragment files... 
+INFO  @ 31 May 2026 10:49:29: [36 MB] #1 read treatment fragments... 
+INFO  @ 31 May 2026 10:49:32: [76 MB]  1000000 fragments parsed 
+INFO  @ 31 May 2026 10:49:34: [85 MB]  2000000 fragments parsed 
+INFO  @ 31 May 2026 10:49:37: [96 MB]  3000000 fragments parsed 
+INFO  @ 31 May 2026 10:49:37: [96 MB] 3018245 fragments have been read. 
+INFO  @ 31 May 2026 10:49:38: [96 MB] #1.2 read input fragments... 
+INFO  @ 31 May 2026 10:49:41: [103 MB]  1000000 fragments parsed 
+INFO  @ 31 May 2026 10:49:43: [110 MB]  2000000 fragments parsed 
+INFO  @ 31 May 2026 10:49:46: [121 MB]  3000000 fragments parsed 
+INFO  @ 31 May 2026 10:49:48: [130 MB]  4000000 fragments parsed 
+INFO  @ 31 May 2026 10:49:51: [137 MB]  5000000 fragments parsed 
+INFO  @ 31 May 2026 10:49:53: [146 MB]  6000000 fragments parsed 
+INFO  @ 31 May 2026 10:49:55: [154 MB]  7000000 fragments parsed 
+INFO  @ 31 May 2026 10:49:58: [163 MB]  8000000 fragments parsed 
+INFO  @ 31 May 2026 10:50:00: [170 MB]  9000000 fragments parsed 
+INFO  @ 31 May 2026 10:50:03: [178 MB] 9922405 fragments have been read. 
+INFO  @ 31 May 2026 10:50:07: [178 MB] #1 mean fragment size is determined as 139.7 bp from treatment 
+INFO  @ 31 May 2026 10:50:07: [178 MB] #1 note: mean fragment size in control is 143.1 bp -- value ignored 
+INFO  @ 31 May 2026 10:50:07: [178 MB] #1 fragment size = 139.7 
+INFO  @ 31 May 2026 10:50:07: [178 MB] #1  total fragments in treatment: 3018245 
+INFO  @ 31 May 2026 10:50:07: [178 MB] #1  total fragments in control: 9922405 
+INFO  @ 31 May 2026 10:50:07: [178 MB] #1 finished! 
+INFO  @ 31 May 2026 10:50:07: [178 MB] #2 Build Peak Model... 
+INFO  @ 31 May 2026 10:50:07: [178 MB] #2 Skipped... 
+INFO  @ 31 May 2026 10:50:07: [178 MB] #3 Call peaks... 
+INFO  @ 31 May 2026 10:50:07: [178 MB] #3 Call broad peaks with given level1 -log10qvalue cutoff and level2: 1.301030, 1.000000... 
+INFO  @ 31 May 2026 10:50:07: [178 MB] #3 Pre-compute pvalue-qvalue table... 
+INFO  @ 31 May 2026 10:51:03: [545 MB] #3 Call peaks for each chromosome... 
+INFO  @ 31 May 2026 10:51:16: [545 MB] #4 Write output xls file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siC_1_rev_peaks.xls 
+INFO  @ 31 May 2026 10:51:16: [545 MB] #4 Write broad peak in broadPeak format file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siC_1_rev_peaks.broadPeak 
+INFO  @ 31 May 2026 10:51:16: [545 MB] #4 Write broad peak in bed12/gappedPeak format file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siC_1_rev_peaks.gappedPeak 
+INFO  @ 31 May 2026 10:51:16: [545 MB] Done! 
+INFO  @ 31 May 2026 10:51:16: [36 MB] 
+# Command line: callpeak -t /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/siC_2.fwd.bam -c /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/RNH_pooled.fwd.bam -f BAMPE -g hs -n siC_2_fwd --outdir /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control --keep-dup all --broad -q 0.05 --broad-cutoff 0.1
+# ARGUMENTS LIST:
+# name = siC_2_fwd
+# format = BAMPE
+# ChIP-seq file = ['/home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/siC_2.fwd.bam']
+# control file = ['/home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/RNH_pooled.fwd.bam']
+# effective genome size = 2.91e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff for narrow/strong regions = 5.00e-02
+# qvalue cutoff for broad/weak regions = 1.00e-01
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is on
+# Paired-End mode is on
+ 
+INFO  @ 31 May 2026 10:51:16: [36 MB] #1 read fragment files... 
+INFO  @ 31 May 2026 10:51:16: [36 MB] #1 read treatment fragments... 
+INFO  @ 31 May 2026 10:51:19: [76 MB]  1000000 fragments parsed 
+INFO  @ 31 May 2026 10:51:21: [84 MB]  2000000 fragments parsed 
+INFO  @ 31 May 2026 10:51:24: [91 MB]  3000000 fragments parsed 
+INFO  @ 31 May 2026 10:51:26: [100 MB]  4000000 fragments parsed 
+INFO  @ 31 May 2026 10:51:29: [110 MB]  5000000 fragments parsed 
+INFO  @ 31 May 2026 10:51:30: [116 MB] 5564474 fragments have been read. 
+INFO  @ 31 May 2026 10:51:33: [116 MB] #1.2 read input fragments... 
+INFO  @ 31 May 2026 10:51:35: [124 MB]  1000000 fragments parsed 
+INFO  @ 31 May 2026 10:51:38: [131 MB]  2000000 fragments parsed 
+INFO  @ 31 May 2026 10:51:40: [141 MB]  3000000 fragments parsed 
+INFO  @ 31 May 2026 10:51:43: [149 MB]  4000000 fragments parsed 
+INFO  @ 31 May 2026 10:51:46: [157 MB]  5000000 fragments parsed 
+INFO  @ 31 May 2026 10:51:48: [165 MB]  6000000 fragments parsed 
+INFO  @ 31 May 2026 10:51:51: [173 MB]  7000000 fragments parsed 
+INFO  @ 31 May 2026 10:51:53: [183 MB]  8000000 fragments parsed 
+INFO  @ 31 May 2026 10:51:56: [191 MB]  9000000 fragments parsed 
+INFO  @ 31 May 2026 10:51:58: [199 MB]  10000000 fragments parsed 
+INFO  @ 31 May 2026 10:51:59: [202 MB] 10290648 fragments have been read. 
+INFO  @ 31 May 2026 10:52:04: [202 MB] #1 mean fragment size is determined as 141.7 bp from treatment 
+INFO  @ 31 May 2026 10:52:04: [202 MB] #1 note: mean fragment size in control is 143.0 bp -- value ignored 
+INFO  @ 31 May 2026 10:52:04: [202 MB] #1 fragment size = 141.7 
+INFO  @ 31 May 2026 10:52:04: [202 MB] #1  total fragments in treatment: 5564474 
+INFO  @ 31 May 2026 10:52:04: [202 MB] #1  total fragments in control: 10290648 
+INFO  @ 31 May 2026 10:52:04: [202 MB] #1 finished! 
+INFO  @ 31 May 2026 10:52:04: [202 MB] #2 Build Peak Model... 
+INFO  @ 31 May 2026 10:52:04: [202 MB] #2 Skipped... 
+INFO  @ 31 May 2026 10:52:04: [202 MB] #3 Call peaks... 
+INFO  @ 31 May 2026 10:52:04: [202 MB] #3 Call broad peaks with given level1 -log10qvalue cutoff and level2: 1.301030, 1.000000... 
+INFO  @ 31 May 2026 10:52:04: [202 MB] #3 Pre-compute pvalue-qvalue table... 
+INFO  @ 31 May 2026 10:53:09: [601 MB] #3 Call peaks for each chromosome... 
+INFO  @ 31 May 2026 10:53:27: [601 MB] #4 Write output xls file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siC_2_fwd_peaks.xls 
+INFO  @ 31 May 2026 10:53:27: [601 MB] #4 Write broad peak in broadPeak format file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siC_2_fwd_peaks.broadPeak 
+INFO  @ 31 May 2026 10:53:27: [601 MB] #4 Write broad peak in bed12/gappedPeak format file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siC_2_fwd_peaks.gappedPeak 
+INFO  @ 31 May 2026 10:53:27: [601 MB] Done! 
+INFO  @ 31 May 2026 10:53:27: [36 MB] 
+# Command line: callpeak -t /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/siC_2.rev.bam -c /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/RNH_pooled.rev.bam -f BAMPE -g hs -n siC_2_rev --outdir /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control --keep-dup all --broad -q 0.05 --broad-cutoff 0.1
+# ARGUMENTS LIST:
+# name = siC_2_rev
+# format = BAMPE
+# ChIP-seq file = ['/home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/siC_2.rev.bam']
+# control file = ['/home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/RNH_pooled.rev.bam']
+# effective genome size = 2.91e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff for narrow/strong regions = 5.00e-02
+# qvalue cutoff for broad/weak regions = 1.00e-01
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is on
+# Paired-End mode is on
+ 
+INFO  @ 31 May 2026 10:53:27: [36 MB] #1 read fragment files... 
+INFO  @ 31 May 2026 10:53:27: [36 MB] #1 read treatment fragments... 
+INFO  @ 31 May 2026 10:53:30: [72 MB]  1000000 fragments parsed 
+INFO  @ 31 May 2026 10:53:32: [83 MB]  2000000 fragments parsed 
+INFO  @ 31 May 2026 10:53:35: [91 MB]  3000000 fragments parsed 
+INFO  @ 31 May 2026 10:53:38: [103 MB]  4000000 fragments parsed 
+INFO  @ 31 May 2026 10:53:40: [112 MB]  5000000 fragments parsed 
+INFO  @ 31 May 2026 10:53:41: [114 MB] 5309367 fragments have been read. 
+INFO  @ 31 May 2026 10:53:43: [114 MB] #1.2 read input fragments... 
+INFO  @ 31 May 2026 10:53:46: [121 MB]  1000000 fragments parsed 
+INFO  @ 31 May 2026 10:53:48: [129 MB]  2000000 fragments parsed 
+INFO  @ 31 May 2026 10:53:51: [139 MB]  3000000 fragments parsed 
+INFO  @ 31 May 2026 10:53:54: [148 MB]  4000000 fragments parsed 
+INFO  @ 31 May 2026 10:53:56: [155 MB]  5000000 fragments parsed 
+INFO  @ 31 May 2026 10:53:59: [164 MB]  6000000 fragments parsed 
+INFO  @ 31 May 2026 10:54:01: [173 MB]  7000000 fragments parsed 
+INFO  @ 31 May 2026 10:54:04: [181 MB]  8000000 fragments parsed 
+INFO  @ 31 May 2026 10:54:06: [189 MB]  9000000 fragments parsed 
+INFO  @ 31 May 2026 10:54:09: [197 MB] 9922405 fragments have been read. 
+INFO  @ 31 May 2026 10:54:13: [197 MB] #1 mean fragment size is determined as 141.7 bp from treatment 
+INFO  @ 31 May 2026 10:54:13: [197 MB] #1 note: mean fragment size in control is 143.1 bp -- value ignored 
+INFO  @ 31 May 2026 10:54:13: [197 MB] #1 fragment size = 141.7 
+INFO  @ 31 May 2026 10:54:13: [197 MB] #1  total fragments in treatment: 5309367 
+INFO  @ 31 May 2026 10:54:13: [197 MB] #1  total fragments in control: 9922405 
+INFO  @ 31 May 2026 10:54:13: [197 MB] #1 finished! 
+INFO  @ 31 May 2026 10:54:13: [197 MB] #2 Build Peak Model... 
+INFO  @ 31 May 2026 10:54:13: [197 MB] #2 Skipped... 
+INFO  @ 31 May 2026 10:54:13: [197 MB] #3 Call peaks... 
+INFO  @ 31 May 2026 10:54:13: [197 MB] #3 Call broad peaks with given level1 -log10qvalue cutoff and level2: 1.301030, 1.000000... 
+INFO  @ 31 May 2026 10:54:13: [197 MB] #3 Pre-compute pvalue-qvalue table... 
+INFO  @ 31 May 2026 10:55:16: [652 MB] #3 Call peaks for each chromosome... 
+INFO  @ 31 May 2026 10:55:33: [652 MB] #4 Write output xls file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siC_2_rev_peaks.xls 
+INFO  @ 31 May 2026 10:55:33: [652 MB] #4 Write broad peak in broadPeak format file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siC_2_rev_peaks.broadPeak 
+INFO  @ 31 May 2026 10:55:33: [652 MB] #4 Write broad peak in bed12/gappedPeak format file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siC_2_rev_peaks.gappedPeak 
+INFO  @ 31 May 2026 10:55:33: [652 MB] Done! 
+INFO  @ 31 May 2026 10:55:33: [36 MB] 
+# Command line: callpeak -t /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/siC_3.fwd.bam -c /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/RNH_pooled.fwd.bam -f BAMPE -g hs -n siC_3_fwd --outdir /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control --keep-dup all --broad -q 0.05 --broad-cutoff 0.1
+# ARGUMENTS LIST:
+# name = siC_3_fwd
+# format = BAMPE
+# ChIP-seq file = ['/home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/siC_3.fwd.bam']
+# control file = ['/home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/RNH_pooled.fwd.bam']
+# effective genome size = 2.91e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff for narrow/strong regions = 5.00e-02
+# qvalue cutoff for broad/weak regions = 1.00e-01
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is on
+# Paired-End mode is on
+ 
+INFO  @ 31 May 2026 10:55:33: [36 MB] #1 read fragment files... 
+INFO  @ 31 May 2026 10:55:33: [36 MB] #1 read treatment fragments... 
+INFO  @ 31 May 2026 10:55:36: [76 MB]  1000000 fragments parsed 
+INFO  @ 31 May 2026 10:55:38: [84 MB]  2000000 fragments parsed 
+INFO  @ 31 May 2026 10:55:41: [92 MB]  3000000 fragments parsed 
+INFO  @ 31 May 2026 10:55:44: [101 MB]  4000000 fragments parsed 
+INFO  @ 31 May 2026 10:55:46: [109 MB]  5000000 fragments parsed 
+INFO  @ 31 May 2026 10:55:48: [117 MB] 5689946 fragments have been read. 
+INFO  @ 31 May 2026 10:55:51: [117 MB] #1.2 read input fragments... 
+INFO  @ 31 May 2026 10:55:53: [126 MB]  1000000 fragments parsed 
+INFO  @ 31 May 2026 10:55:56: [134 MB]  2000000 fragments parsed 
+INFO  @ 31 May 2026 10:55:58: [144 MB]  3000000 fragments parsed 
+INFO  @ 31 May 2026 10:56:01: [151 MB]  4000000 fragments parsed 
+INFO  @ 31 May 2026 10:56:04: [160 MB]  5000000 fragments parsed 
+INFO  @ 31 May 2026 10:56:06: [168 MB]  6000000 fragments parsed 
+INFO  @ 31 May 2026 10:56:09: [175 MB]  7000000 fragments parsed 
+INFO  @ 31 May 2026 10:56:11: [184 MB]  8000000 fragments parsed 
+INFO  @ 31 May 2026 10:56:14: [192 MB]  9000000 fragments parsed 
+INFO  @ 31 May 2026 10:56:16: [200 MB]  10000000 fragments parsed 
+INFO  @ 31 May 2026 10:56:17: [203 MB] 10290648 fragments have been read. 
+INFO  @ 31 May 2026 10:56:22: [203 MB] #1 mean fragment size is determined as 140.7 bp from treatment 
+INFO  @ 31 May 2026 10:56:22: [203 MB] #1 note: mean fragment size in control is 143.0 bp -- value ignored 
+INFO  @ 31 May 2026 10:56:22: [203 MB] #1 fragment size = 140.7 
+INFO  @ 31 May 2026 10:56:22: [203 MB] #1  total fragments in treatment: 5689946 
+INFO  @ 31 May 2026 10:56:22: [203 MB] #1  total fragments in control: 10290648 
+INFO  @ 31 May 2026 10:56:22: [203 MB] #1 finished! 
+INFO  @ 31 May 2026 10:56:22: [203 MB] #2 Build Peak Model... 
+INFO  @ 31 May 2026 10:56:22: [203 MB] #2 Skipped... 
+INFO  @ 31 May 2026 10:56:22: [203 MB] #3 Call peaks... 
+INFO  @ 31 May 2026 10:56:22: [203 MB] #3 Call broad peaks with given level1 -log10qvalue cutoff and level2: 1.301030, 1.000000... 
+INFO  @ 31 May 2026 10:56:22: [203 MB] #3 Pre-compute pvalue-qvalue table... 
+INFO  @ 31 May 2026 10:57:29: [600 MB] #3 Call peaks for each chromosome... 
+INFO  @ 31 May 2026 10:57:48: [600 MB] #4 Write output xls file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siC_3_fwd_peaks.xls 
+INFO  @ 31 May 2026 10:57:48: [600 MB] #4 Write broad peak in broadPeak format file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siC_3_fwd_peaks.broadPeak 
+INFO  @ 31 May 2026 10:57:48: [600 MB] #4 Write broad peak in bed12/gappedPeak format file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siC_3_fwd_peaks.gappedPeak 
+INFO  @ 31 May 2026 10:57:48: [600 MB] Done! 
+INFO  @ 31 May 2026 10:57:48: [36 MB] 
+# Command line: callpeak -t /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/siC_3.rev.bam -c /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/RNH_pooled.rev.bam -f BAMPE -g hs -n siC_3_rev --outdir /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control --keep-dup all --broad -q 0.05 --broad-cutoff 0.1
+# ARGUMENTS LIST:
+# name = siC_3_rev
+# format = BAMPE
+# ChIP-seq file = ['/home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/siC_3.rev.bam']
+# control file = ['/home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/RNH_pooled.rev.bam']
+# effective genome size = 2.91e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff for narrow/strong regions = 5.00e-02
+# qvalue cutoff for broad/weak regions = 1.00e-01
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is on
+# Paired-End mode is on
+ 
+INFO  @ 31 May 2026 10:57:48: [36 MB] #1 read fragment files... 
+INFO  @ 31 May 2026 10:57:48: [36 MB] #1 read treatment fragments... 
+INFO  @ 31 May 2026 10:57:51: [74 MB]  1000000 fragments parsed 
+INFO  @ 31 May 2026 10:57:53: [84 MB]  2000000 fragments parsed 
+INFO  @ 31 May 2026 10:57:56: [91 MB]  3000000 fragments parsed 
+INFO  @ 31 May 2026 10:57:58: [102 MB]  4000000 fragments parsed 
+INFO  @ 31 May 2026 10:58:01: [111 MB]  5000000 fragments parsed 
+INFO  @ 31 May 2026 10:58:02: [116 MB] 5394545 fragments have been read. 
+INFO  @ 31 May 2026 10:58:04: [116 MB] #1.2 read input fragments... 
+INFO  @ 31 May 2026 10:58:07: [122 MB]  1000000 fragments parsed 
+INFO  @ 31 May 2026 10:58:09: [131 MB]  2000000 fragments parsed 
+INFO  @ 31 May 2026 10:58:12: [141 MB]  3000000 fragments parsed 
+INFO  @ 31 May 2026 10:58:14: [150 MB]  4000000 fragments parsed 
+INFO  @ 31 May 2026 10:58:17: [157 MB]  5000000 fragments parsed 
+INFO  @ 31 May 2026 10:58:19: [165 MB]  6000000 fragments parsed 
+INFO  @ 31 May 2026 10:58:22: [174 MB]  7000000 fragments parsed 
+INFO  @ 31 May 2026 10:58:25: [182 MB]  8000000 fragments parsed 
+INFO  @ 31 May 2026 10:58:27: [190 MB]  9000000 fragments parsed 
+INFO  @ 31 May 2026 10:58:29: [198 MB] 9922405 fragments have been read. 
+INFO  @ 31 May 2026 10:58:34: [198 MB] #1 mean fragment size is determined as 140.5 bp from treatment 
+INFO  @ 31 May 2026 10:58:34: [198 MB] #1 note: mean fragment size in control is 143.1 bp -- value ignored 
+INFO  @ 31 May 2026 10:58:34: [198 MB] #1 fragment size = 140.5 
+INFO  @ 31 May 2026 10:58:34: [198 MB] #1  total fragments in treatment: 5394545 
+INFO  @ 31 May 2026 10:58:34: [198 MB] #1  total fragments in control: 9922405 
+INFO  @ 31 May 2026 10:58:34: [198 MB] #1 finished! 
+INFO  @ 31 May 2026 10:58:34: [198 MB] #2 Build Peak Model... 
+INFO  @ 31 May 2026 10:58:34: [198 MB] #2 Skipped... 
+INFO  @ 31 May 2026 10:58:34: [198 MB] #3 Call peaks... 
+INFO  @ 31 May 2026 10:58:34: [198 MB] #3 Call broad peaks with given level1 -log10qvalue cutoff and level2: 1.301030, 1.000000... 
+INFO  @ 31 May 2026 10:58:34: [198 MB] #3 Pre-compute pvalue-qvalue table... 
+INFO  @ 31 May 2026 10:59:39: [626 MB] #3 Call peaks for each chromosome... 
+INFO  @ 31 May 2026 10:59:58: [626 MB] #4 Write output xls file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siC_3_rev_peaks.xls 
+INFO  @ 31 May 2026 10:59:58: [626 MB] #4 Write broad peak in broadPeak format file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siC_3_rev_peaks.broadPeak 
+INFO  @ 31 May 2026 10:59:58: [626 MB] #4 Write broad peak in bed12/gappedPeak format file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siC_3_rev_peaks.gappedPeak 
+INFO  @ 31 May 2026 10:59:58: [626 MB] Done! 
+INFO  @ 31 May 2026 11:08:02: [36 MB] 
+# Command line: callpeak -t /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/siUAP56_1.fwd.bam -c /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/RNH_pooled.fwd.bam -f BAMPE -g hs -n siUAP56_1_fwd --outdir /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control --keep-dup all --broad -q 0.05 --broad-cutoff 0.1
+# ARGUMENTS LIST:
+# name = siUAP56_1_fwd
+# format = BAMPE
+# ChIP-seq file = ['/home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/siUAP56_1.fwd.bam']
+# control file = ['/home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/RNH_pooled.fwd.bam']
+# effective genome size = 2.91e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff for narrow/strong regions = 5.00e-02
+# qvalue cutoff for broad/weak regions = 1.00e-01
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is on
+# Paired-End mode is on
+ 
+INFO  @ 31 May 2026 11:08:02: [36 MB] #1 read fragment files... 
+INFO  @ 31 May 2026 11:08:02: [36 MB] #1 read treatment fragments... 
+INFO  @ 31 May 2026 11:08:05: [75 MB]  1000000 fragments parsed 
+INFO  @ 31 May 2026 11:08:07: [84 MB]  2000000 fragments parsed 
+INFO  @ 31 May 2026 11:08:10: [93 MB]  3000000 fragments parsed 
+INFO  @ 31 May 2026 11:08:13: [102 MB]  4000000 fragments parsed 
+INFO  @ 31 May 2026 11:08:15: [111 MB]  5000000 fragments parsed 
+INFO  @ 31 May 2026 11:08:18: [120 MB]  6000000 fragments parsed 
+INFO  @ 31 May 2026 11:08:20: [126 MB] 6623279 fragments have been read. 
+INFO  @ 31 May 2026 11:08:23: [126 MB] #1.2 read input fragments... 
+INFO  @ 31 May 2026 11:08:25: [133 MB]  1000000 fragments parsed 
+INFO  @ 31 May 2026 11:08:28: [142 MB]  2000000 fragments parsed 
+INFO  @ 31 May 2026 11:08:31: [152 MB]  3000000 fragments parsed 
+INFO  @ 31 May 2026 11:08:34: [159 MB]  4000000 fragments parsed 
+INFO  @ 31 May 2026 11:08:36: [168 MB]  5000000 fragments parsed 
+INFO  @ 31 May 2026 11:08:39: [175 MB]  6000000 fragments parsed 
+INFO  @ 31 May 2026 11:08:42: [184 MB]  7000000 fragments parsed 
+INFO  @ 31 May 2026 11:08:44: [193 MB]  8000000 fragments parsed 
+INFO  @ 31 May 2026 11:08:47: [201 MB]  9000000 fragments parsed 
+INFO  @ 31 May 2026 11:08:50: [209 MB]  10000000 fragments parsed 
+INFO  @ 31 May 2026 11:08:51: [212 MB] 10290648 fragments have been read. 
+INFO  @ 31 May 2026 11:08:56: [212 MB] #1 mean fragment size is determined as 139.8 bp from treatment 
+INFO  @ 31 May 2026 11:08:56: [212 MB] #1 note: mean fragment size in control is 143.0 bp -- value ignored 
+INFO  @ 31 May 2026 11:08:56: [212 MB] #1 fragment size = 139.8 
+INFO  @ 31 May 2026 11:08:56: [212 MB] #1  total fragments in treatment: 6623279 
+INFO  @ 31 May 2026 11:08:56: [212 MB] #1  total fragments in control: 10290648 
+INFO  @ 31 May 2026 11:08:56: [212 MB] #1 finished! 
+INFO  @ 31 May 2026 11:08:56: [212 MB] #2 Build Peak Model... 
+INFO  @ 31 May 2026 11:08:56: [212 MB] #2 Skipped... 
+INFO  @ 31 May 2026 11:08:56: [212 MB] #3 Call peaks... 
+INFO  @ 31 May 2026 11:08:56: [212 MB] #3 Call broad peaks with given level1 -log10qvalue cutoff and level2: 1.301030, 1.000000... 
+INFO  @ 31 May 2026 11:08:56: [212 MB] #3 Pre-compute pvalue-qvalue table... 
+INFO  @ 31 May 2026 11:10:05: [626 MB] #3 Call peaks for each chromosome... 
+INFO  @ 31 May 2026 11:10:26: [626 MB] #4 Write output xls file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siUAP56_1_fwd_peaks.xls 
+INFO  @ 31 May 2026 11:10:26: [626 MB] #4 Write broad peak in broadPeak format file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siUAP56_1_fwd_peaks.broadPeak 
+INFO  @ 31 May 2026 11:10:26: [626 MB] #4 Write broad peak in bed12/gappedPeak format file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siUAP56_1_fwd_peaks.gappedPeak 
+INFO  @ 31 May 2026 11:10:26: [626 MB] Done! 
+INFO  @ 31 May 2026 11:10:26: [36 MB] 
+# Command line: callpeak -t /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/siUAP56_1.rev.bam -c /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/RNH_pooled.rev.bam -f BAMPE -g hs -n siUAP56_1_rev --outdir /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control --keep-dup all --broad -q 0.05 --broad-cutoff 0.1
+# ARGUMENTS LIST:
+# name = siUAP56_1_rev
+# format = BAMPE
+# ChIP-seq file = ['/home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/siUAP56_1.rev.bam']
+# control file = ['/home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/RNH_pooled.rev.bam']
+# effective genome size = 2.91e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff for narrow/strong regions = 5.00e-02
+# qvalue cutoff for broad/weak regions = 1.00e-01
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is on
+# Paired-End mode is on
+ 
+INFO  @ 31 May 2026 11:10:26: [36 MB] #1 read fragment files... 
+INFO  @ 31 May 2026 11:10:26: [36 MB] #1 read treatment fragments... 
+INFO  @ 31 May 2026 11:10:29: [73 MB]  1000000 fragments parsed 
+INFO  @ 31 May 2026 11:10:32: [82 MB]  2000000 fragments parsed 
+INFO  @ 31 May 2026 11:10:34: [91 MB]  3000000 fragments parsed 
+INFO  @ 31 May 2026 11:10:37: [103 MB]  4000000 fragments parsed 
+INFO  @ 31 May 2026 11:10:39: [112 MB]  5000000 fragments parsed 
+INFO  @ 31 May 2026 11:10:42: [121 MB]  6000000 fragments parsed 
+INFO  @ 31 May 2026 11:10:43: [123 MB] 6275833 fragments have been read. 
+INFO  @ 31 May 2026 11:10:45: [123 MB] #1.2 read input fragments... 
+INFO  @ 31 May 2026 11:10:48: [132 MB]  1000000 fragments parsed 
+INFO  @ 31 May 2026 11:10:51: [142 MB]  2000000 fragments parsed 
+INFO  @ 31 May 2026 11:10:53: [152 MB]  3000000 fragments parsed 
+INFO  @ 31 May 2026 11:10:56: [160 MB]  4000000 fragments parsed 
+INFO  @ 31 May 2026 11:10:59: [168 MB]  5000000 fragments parsed 
+INFO  @ 31 May 2026 11:11:01: [174 MB]  6000000 fragments parsed 
+INFO  @ 31 May 2026 11:11:04: [184 MB]  7000000 fragments parsed 
+INFO  @ 31 May 2026 11:11:07: [192 MB]  8000000 fragments parsed 
+INFO  @ 31 May 2026 11:11:09: [200 MB]  9000000 fragments parsed 
+INFO  @ 31 May 2026 11:11:12: [207 MB] 9922405 fragments have been read. 
+INFO  @ 31 May 2026 11:11:16: [207 MB] #1 mean fragment size is determined as 139.5 bp from treatment 
+INFO  @ 31 May 2026 11:11:16: [207 MB] #1 note: mean fragment size in control is 143.1 bp -- value ignored 
+INFO  @ 31 May 2026 11:11:16: [207 MB] #1 fragment size = 139.5 
+INFO  @ 31 May 2026 11:11:16: [207 MB] #1  total fragments in treatment: 6275833 
+INFO  @ 31 May 2026 11:11:16: [207 MB] #1  total fragments in control: 9922405 
+INFO  @ 31 May 2026 11:11:16: [207 MB] #1 finished! 
+INFO  @ 31 May 2026 11:11:16: [207 MB] #2 Build Peak Model... 
+INFO  @ 31 May 2026 11:11:16: [207 MB] #2 Skipped... 
+INFO  @ 31 May 2026 11:11:16: [207 MB] #3 Call peaks... 
+INFO  @ 31 May 2026 11:11:16: [207 MB] #3 Call broad peaks with given level1 -log10qvalue cutoff and level2: 1.301030, 1.000000... 
+INFO  @ 31 May 2026 11:11:16: [207 MB] #3 Pre-compute pvalue-qvalue table... 
+INFO  @ 31 May 2026 11:12:23: [639 MB] #3 Call peaks for each chromosome... 
+INFO  @ 31 May 2026 11:12:44: [639 MB] #4 Write output xls file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siUAP56_1_rev_peaks.xls 
+INFO  @ 31 May 2026 11:12:44: [639 MB] #4 Write broad peak in broadPeak format file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siUAP56_1_rev_peaks.broadPeak 
+INFO  @ 31 May 2026 11:12:44: [639 MB] #4 Write broad peak in bed12/gappedPeak format file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siUAP56_1_rev_peaks.gappedPeak 
+INFO  @ 31 May 2026 11:12:44: [639 MB] Done! 
+INFO  @ 31 May 2026 11:12:44: [36 MB] 
+# Command line: callpeak -t /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/siUAP56_2.fwd.bam -c /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/RNH_pooled.fwd.bam -f BAMPE -g hs -n siUAP56_2_fwd --outdir /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control --keep-dup all --broad -q 0.05 --broad-cutoff 0.1
+# ARGUMENTS LIST:
+# name = siUAP56_2_fwd
+# format = BAMPE
+# ChIP-seq file = ['/home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/siUAP56_2.fwd.bam']
+# control file = ['/home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/RNH_pooled.fwd.bam']
+# effective genome size = 2.91e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff for narrow/strong regions = 5.00e-02
+# qvalue cutoff for broad/weak regions = 1.00e-01
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is on
+# Paired-End mode is on
+ 
+INFO  @ 31 May 2026 11:12:44: [36 MB] #1 read fragment files... 
+INFO  @ 31 May 2026 11:12:44: [36 MB] #1 read treatment fragments... 
+INFO  @ 31 May 2026 11:12:47: [74 MB]  1000000 fragments parsed 
+INFO  @ 31 May 2026 11:12:50: [81 MB]  2000000 fragments parsed 
+INFO  @ 31 May 2026 11:12:52: [90 MB]  3000000 fragments parsed 
+INFO  @ 31 May 2026 11:12:55: [99 MB]  4000000 fragments parsed 
+INFO  @ 31 May 2026 11:12:58: [112 MB]  5000000 fragments parsed 
+INFO  @ 31 May 2026 11:13:00: [121 MB]  6000000 fragments parsed 
+INFO  @ 31 May 2026 11:13:03: [128 MB]  7000000 fragments parsed 
+INFO  @ 31 May 2026 11:13:04: [130 MB] 7555790 fragments have been read. 
+INFO  @ 31 May 2026 11:13:08: [130 MB] #1.2 read input fragments... 
+INFO  @ 31 May 2026 11:13:11: [138 MB]  1000000 fragments parsed 
+INFO  @ 31 May 2026 11:13:13: [146 MB]  2000000 fragments parsed 
+INFO  @ 31 May 2026 11:13:16: [156 MB]  3000000 fragments parsed 
+INFO  @ 31 May 2026 11:13:19: [164 MB]  4000000 fragments parsed 
+INFO  @ 31 May 2026 11:13:21: [172 MB]  5000000 fragments parsed 
+INFO  @ 31 May 2026 11:13:24: [180 MB]  6000000 fragments parsed 
+INFO  @ 31 May 2026 11:13:27: [187 MB]  7000000 fragments parsed 
+INFO  @ 31 May 2026 11:13:29: [196 MB]  8000000 fragments parsed 
+INFO  @ 31 May 2026 11:13:32: [204 MB]  9000000 fragments parsed 
+INFO  @ 31 May 2026 11:13:34: [213 MB]  10000000 fragments parsed 
+INFO  @ 31 May 2026 11:13:35: [215 MB] 10290648 fragments have been read. 
+INFO  @ 31 May 2026 11:13:40: [215 MB] #1 mean fragment size is determined as 142.6 bp from treatment 
+INFO  @ 31 May 2026 11:13:40: [215 MB] #1 note: mean fragment size in control is 143.0 bp -- value ignored 
+INFO  @ 31 May 2026 11:13:40: [215 MB] #1 fragment size = 142.6 
+INFO  @ 31 May 2026 11:13:40: [215 MB] #1  total fragments in treatment: 7555790 
+INFO  @ 31 May 2026 11:13:40: [215 MB] #1  total fragments in control: 10290648 
+INFO  @ 31 May 2026 11:13:40: [215 MB] #1 finished! 
+INFO  @ 31 May 2026 11:13:40: [215 MB] #2 Build Peak Model... 
+INFO  @ 31 May 2026 11:13:40: [215 MB] #2 Skipped... 
+INFO  @ 31 May 2026 11:13:40: [215 MB] #3 Call peaks... 
+INFO  @ 31 May 2026 11:13:40: [215 MB] #3 Call broad peaks with given level1 -log10qvalue cutoff and level2: 1.301030, 1.000000... 
+INFO  @ 31 May 2026 11:13:40: [215 MB] #3 Pre-compute pvalue-qvalue table... 
+INFO  @ 31 May 2026 11:14:50: [627 MB] #3 Call peaks for each chromosome... 
+INFO  @ 31 May 2026 11:15:10: [627 MB] #4 Write output xls file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siUAP56_2_fwd_peaks.xls 
+INFO  @ 31 May 2026 11:15:10: [627 MB] #4 Write broad peak in broadPeak format file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siUAP56_2_fwd_peaks.broadPeak 
+INFO  @ 31 May 2026 11:15:10: [627 MB] #4 Write broad peak in bed12/gappedPeak format file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siUAP56_2_fwd_peaks.gappedPeak 
+INFO  @ 31 May 2026 11:15:10: [627 MB] Done! 
+INFO  @ 31 May 2026 11:15:10: [36 MB] 
+# Command line: callpeak -t /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/siUAP56_2.rev.bam -c /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/RNH_pooled.rev.bam -f BAMPE -g hs -n siUAP56_2_rev --outdir /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control --keep-dup all --broad -q 0.05 --broad-cutoff 0.1
+# ARGUMENTS LIST:
+# name = siUAP56_2_rev
+# format = BAMPE
+# ChIP-seq file = ['/home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/siUAP56_2.rev.bam']
+# control file = ['/home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/bam_stranded/RNH_pooled.rev.bam']
+# effective genome size = 2.91e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff for narrow/strong regions = 5.00e-02
+# qvalue cutoff for broad/weak regions = 1.00e-01
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is on
+# Paired-End mode is on
+ 
+INFO  @ 31 May 2026 11:15:10: [36 MB] #1 read fragment files... 
+INFO  @ 31 May 2026 11:15:10: [36 MB] #1 read treatment fragments... 
+INFO  @ 31 May 2026 11:15:13: [76 MB]  1000000 fragments parsed 
+INFO  @ 31 May 2026 11:15:15: [83 MB]  2000000 fragments parsed 
+INFO  @ 31 May 2026 11:15:18: [92 MB]  3000000 fragments parsed 
+INFO  @ 31 May 2026 11:15:20: [99 MB]  4000000 fragments parsed 
+INFO  @ 31 May 2026 11:15:23: [109 MB]  5000000 fragments parsed 
+INFO  @ 31 May 2026 11:15:25: [116 MB]  6000000 fragments parsed 
+INFO  @ 31 May 2026 11:15:28: [126 MB]  7000000 fragments parsed 
+INFO  @ 31 May 2026 11:15:29: [126 MB] 7221401 fragments have been read. 
+INFO  @ 31 May 2026 11:15:32: [126 MB] #1.2 read input fragments... 
+INFO  @ 31 May 2026 11:15:35: [134 MB]  1000000 fragments parsed 
+INFO  @ 31 May 2026 11:15:37: [142 MB]  2000000 fragments parsed 
+INFO  @ 31 May 2026 11:15:40: [152 MB]  3000000 fragments parsed 
+INFO  @ 31 May 2026 11:15:43: [161 MB]  4000000 fragments parsed 
+INFO  @ 31 May 2026 11:15:45: [168 MB]  5000000 fragments parsed 
+INFO  @ 31 May 2026 11:15:48: [177 MB]  6000000 fragments parsed 
+INFO  @ 31 May 2026 11:15:50: [186 MB]  7000000 fragments parsed 
+INFO  @ 31 May 2026 11:15:53: [194 MB]  8000000 fragments parsed 
+INFO  @ 31 May 2026 11:15:56: [202 MB]  9000000 fragments parsed 
+INFO  @ 31 May 2026 11:15:58: [210 MB] 9922405 fragments have been read. 
+INFO  @ 31 May 2026 11:16:02: [210 MB] #1 mean fragment size is determined as 142.6 bp from treatment 
+INFO  @ 31 May 2026 11:16:02: [210 MB] #1 note: mean fragment size in control is 143.1 bp -- value ignored 
+INFO  @ 31 May 2026 11:16:02: [210 MB] #1 fragment size = 142.6 
+INFO  @ 31 May 2026 11:16:02: [210 MB] #1  total fragments in treatment: 7221401 
+INFO  @ 31 May 2026 11:16:02: [210 MB] #1  total fragments in control: 9922405 
+INFO  @ 31 May 2026 11:16:02: [210 MB] #1 finished! 
+INFO  @ 31 May 2026 11:16:02: [210 MB] #2 Build Peak Model... 
+INFO  @ 31 May 2026 11:16:02: [210 MB] #2 Skipped... 
+INFO  @ 31 May 2026 11:16:02: [210 MB] #3 Call peaks... 
+INFO  @ 31 May 2026 11:16:02: [210 MB] #3 Call broad peaks with given level1 -log10qvalue cutoff and level2: 1.301030, 1.000000... 
+INFO  @ 31 May 2026 11:16:02: [210 MB] #3 Pre-compute pvalue-qvalue table... 
+INFO  @ 31 May 2026 11:17:10: [653 MB] #3 Call peaks for each chromosome... 
+INFO  @ 31 May 2026 11:17:29: [653 MB] #4 Write output xls file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siUAP56_2_rev_peaks.xls 
+INFO  @ 31 May 2026 11:17:29: [653 MB] #4 Write broad peak in broadPeak format file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siUAP56_2_rev_peaks.broadPeak 
+INFO  @ 31 May 2026 11:17:29: [653 MB] #4 Write broad peak in bed12/gappedPeak format file... /home/josvarcas/Archivos/master/c0_TFMEXP/DRIPc_seq/peaks_control/siUAP56_2_rev_peaks.gappedPeak 
+INFO  @ 31 May 2026 11:17:29: [653 MB] Done! 

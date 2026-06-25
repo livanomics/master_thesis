@@ -1,0 +1,414 @@
+Read1 before filtering:
+total reads: 63547991
+total bases: 4779583034
+Q20 bases: 4575073452(95.7212%)
+Q30 bases: 4479324280(93.7179%)
+Q40 bases: 0(0%)
+
+Read2 before filtering:
+total reads: 63547991
+total bases: 4788027535
+Q20 bases: 4489421408(93.7635%)
+Q30 bases: 4397784048(91.8496%)
+Q40 bases: 0(0%)
+
+Read1 after filtering:
+total reads: 59469386
+total bases: 4470146065
+Q20 bases: 4337731804(97.0378%)
+Q30 bases: 4258872604(95.2737%)
+Q40 bases: 0(0%)
+
+Read2 after filtering:
+total reads: 59469386
+total bases: 4478410465
+Q20 bases: 4312417274(96.2935%)
+Q30 bases: 4241273418(94.7049%)
+Q40 bases: 0(0%)
+
+Filtering result:
+reads passed filter: 118938772
+reads failed due to low quality: 7691986
+reads failed due to too many N: 31856
+reads failed due to too short: 431610
+reads failed due to adapter dimer: 1758
+reads with adapter trimmed: 119360
+bases trimmed due to adapters: 2289300
+
+Duplication rate: 69.2981%
+
+Insert size peak (evaluated by paired-end reads): 116
+
+JSON report: ../trimmed/siBRG1_1.json
+HTML report: ../trimmed/siBRG1_1.html
+
+fastp -i siBRG1_1_R1.fastq.gz -I siBRG1_1_R2.fastq.gz -o ../trimmed/siBRG1_1_R1.trim.fastq.gz -O ../trimmed/siBRG1_1_R2.trim.fastq.gz --trim_poly_g --cut_tail --cut_tail_window_size 4 --cut_tail_mean_quality 20 --qualified_quality_phred 20 --unqualified_percent_limit 30 --length_required 30 --html ../trimmed/siBRG1_1.html --json ../trimmed/siBRG1_1.json 
+fastp v1.3.3, time used: 168 seconds
+Read1 before filtering:
+total reads: 62710111
+total bases: 4715185242
+Q20 bases: 4515132369(95.7573%)
+Q30 bases: 4420505768(93.7504%)
+Q40 bases: 0(0%)
+
+Read2 before filtering:
+total reads: 62710111
+total bases: 4720845393
+Q20 bases: 4442325645(94.1002%)
+Q30 bases: 4354278775(92.2351%)
+Q40 bases: 0(0%)
+
+Read1 after filtering:
+total reads: 58878587
+total bases: 4425015080
+Q20 bases: 4291554112(96.9839%)
+Q30 bases: 4212603872(95.1998%)
+Q40 bases: 0(0%)
+
+Read2 after filtering:
+total reads: 58878587
+total bases: 4430473059
+Q20 bases: 4273782344(96.4633%)
+Q30 bases: 4204903122(94.9087%)
+Q40 bases: 0(0%)
+
+Filtering result:
+reads passed filter: 117757174
+reads failed due to low quality: 7130150
+reads failed due to too many N: 31470
+reads failed due to too short: 499478
+reads failed due to adapter dimer: 1950
+reads with adapter trimmed: 116464
+bases trimmed due to adapters: 2095728
+
+Duplication rate: 71.3657%
+
+Insert size peak (evaluated by paired-end reads): 112
+
+JSON report: ../trimmed/siBRG1_2.json
+HTML report: ../trimmed/siBRG1_2.html
+
+fastp -i siBRG1_2_R1.fastq.gz -I siBRG1_2_R2.fastq.gz -o ../trimmed/siBRG1_2_R1.trim.fastq.gz -O ../trimmed/siBRG1_2_R2.trim.fastq.gz --trim_poly_g --cut_tail --cut_tail_window_size 4 --cut_tail_mean_quality 20 --qualified_quality_phred 20 --unqualified_percent_limit 30 --length_required 30 --html ../trimmed/siBRG1_2.html --json ../trimmed/siBRG1_2.json 
+fastp v1.3.3, time used: 168 seconds
+Read1 before filtering:
+total reads: 45313211
+total bases: 3406499935
+Q20 bases: 3204382236(94.0667%)
+Q30 bases: 3125716363(91.7574%)
+Q40 bases: 0(0%)
+
+Read2 before filtering:
+total reads: 45313211
+total bases: 3414545182
+Q20 bases: 2692468843(78.8529%)
+Q30 bases: 2569767451(75.2594%)
+Q40 bases: 0(0%)
+
+Read1 after filtering:
+total reads: 31699363
+total bases: 2379931685
+Q20 bases: 2298240394(96.5675%)
+Q30 bases: 2252885810(94.6618%)
+Q40 bases: 0(0%)
+
+Read2 after filtering:
+total reads: 31699363
+total bases: 2384379532
+Q20 bases: 2279523234(95.6024%)
+Q30 bases: 2236044656(93.7789%)
+Q40 bases: 0(0%)
+
+Filtering result:
+reads passed filter: 63398726
+reads failed due to low quality: 23146084
+reads failed due to too many N: 16428
+reads failed due to too short: 4030478
+reads failed due to adapter dimer: 34706
+reads with adapter trimmed: 270308
+bases trimmed due to adapters: 3912918
+
+Duplication rate: 45.1467%
+
+Insert size peak (evaluated by paired-end reads): 0
+
+JSON report: ../trimmed/siC_1.json
+HTML report: ../trimmed/siC_1.html
+
+fastp -i siC_1_R1.fastq.gz -I siC_1_R2.fastq.gz -o ../trimmed/siC_1_R1.trim.fastq.gz -O ../trimmed/siC_1_R2.trim.fastq.gz --trim_poly_g --cut_tail --cut_tail_window_size 4 --cut_tail_mean_quality 20 --qualified_quality_phred 20 --unqualified_percent_limit 30 --length_required 30 --html ../trimmed/siC_1.html --json ../trimmed/siC_1.json 
+fastp v1.3.3, time used: 102 seconds
+Read1 before filtering:
+total reads: 56863657
+total bases: 4271060917
+Q20 bases: 4081864523(95.5703%)
+Q30 bases: 3997553244(93.5963%)
+Q40 bases: 0(0%)
+
+Read2 before filtering:
+total reads: 56863657
+total bases: 4278655347
+Q20 bases: 3998648042(93.4557%)
+Q30 bases: 3912861524(91.4507%)
+Q40 bases: 0(0%)
+
+Read1 after filtering:
+total reads: 53066951
+total bases: 3982228746
+Q20 bases: 3864447688(97.0423%)
+Q30 bases: 3795925060(95.3216%)
+Q40 bases: 0(0%)
+
+Read2 after filtering:
+total reads: 53066951
+total bases: 3989895236
+Q20 bases: 3828539168(95.9559%)
+Q30 bases: 3761410876(94.2734%)
+Q40 bases: 0(0%)
+
+Filtering result:
+reads passed filter: 106133902
+reads failed due to low quality: 7195258
+reads failed due to too many N: 27966
+reads failed due to too short: 369032
+reads failed due to adapter dimer: 1156
+reads with adapter trimmed: 163286
+bases trimmed due to adapters: 3234320
+
+Duplication rate: 58.1922%
+
+Insert size peak (evaluated by paired-end reads): 104
+
+JSON report: ../trimmed/siC_2.json
+HTML report: ../trimmed/siC_2.html
+
+fastp -i siC_2_R1.fastq.gz -I siC_2_R2.fastq.gz -o ../trimmed/siC_2_R1.trim.fastq.gz -O ../trimmed/siC_2_R2.trim.fastq.gz --trim_poly_g --cut_tail --cut_tail_window_size 4 --cut_tail_mean_quality 20 --qualified_quality_phred 20 --unqualified_percent_limit 30 --length_required 30 --html ../trimmed/siC_2.html --json ../trimmed/siC_2.json 
+fastp v1.3.3, time used: 157 seconds
+Read1 before filtering:
+total reads: 63369034
+total bases: 4758859088
+Q20 bases: 4552221743(95.6578%)
+Q30 bases: 4459014803(93.6992%)
+Q40 bases: 0(0%)
+
+Read2 before filtering:
+total reads: 63369034
+total bases: 4766835043
+Q20 bases: 4452514419(93.4061%)
+Q30 bases: 4360095063(91.4673%)
+Q40 bases: 0(0%)
+
+Read1 after filtering:
+total reads: 58826648
+total bases: 4414394076
+Q20 bases: 4282988750(97.0233%)
+Q30 bases: 4206643179(95.2938%)
+Q40 bases: 0(0%)
+
+Read2 after filtering:
+total reads: 58826648
+total bases: 4422381199
+Q20 bases: 4260425009(96.3378%)
+Q30 bases: 4190864217(94.7649%)
+Q40 bases: 0(0%)
+
+Filtering result:
+reads passed filter: 117653296
+reads failed due to low quality: 8417770
+reads failed due to too many N: 32082
+reads failed due to too short: 632136
+reads failed due to adapter dimer: 2784
+reads with adapter trimmed: 181686
+bases trimmed due to adapters: 3440616
+
+Duplication rate: 60.6342%
+
+Insert size peak (evaluated by paired-end reads): 117
+
+JSON report: ../trimmed/siC_3.json
+HTML report: ../trimmed/siC_3.html
+
+fastp -i siC_3_R1.fastq.gz -I siC_3_R2.fastq.gz -o ../trimmed/siC_3_R1.trim.fastq.gz -O ../trimmed/siC_3_R2.trim.fastq.gz --trim_poly_g --cut_tail --cut_tail_window_size 4 --cut_tail_mean_quality 20 --qualified_quality_phred 20 --unqualified_percent_limit 30 --length_required 30 --html ../trimmed/siC_3.html --json ../trimmed/siC_3.json 
+fastp v1.3.3, time used: 179 seconds
+Read1 before filtering:
+total reads: 24355447
+total bases: 1835157485
+Q20 bases: 1721288647(93.7951%)
+Q30 bases: 1680565984(91.5761%)
+Q40 bases: 0(0%)
+
+Read2 before filtering:
+total reads: 24355447
+total bases: 1834394819
+Q20 bases: 1695130018(92.4081%)
+Q30 bases: 1655807111(90.2645%)
+Q40 bases: 0(0%)
+
+Read1 after filtering:
+total reads: 22163139
+total bases: 1665111918
+Q20 bases: 1598903380(96.0238%)
+Q30 bases: 1566973185(94.1062%)
+Q40 bases: 0(0%)
+
+Read2 after filtering:
+total reads: 22163139
+total bases: 1664783407
+Q20 bases: 1595202864(95.8204%)
+Q30 bases: 1566506379(94.0967%)
+Q40 bases: 0(0%)
+
+Filtering result:
+reads passed filter: 44326278
+reads failed due to low quality: 4126640
+reads failed due to too many N: 25788
+reads failed due to too short: 229512
+reads failed due to adapter dimer: 2676
+reads with adapter trimmed: 116956
+bases trimmed due to adapters: 2679590
+
+Duplication rate: 22.3072%
+
+Insert size peak (evaluated by paired-end reads): 117
+
+JSON report: ../trimmed/siC_RNH.json
+HTML report: ../trimmed/siC_RNH.html
+
+fastp -i siC_RNH_R1.fastq.gz -I siC_RNH_R2.fastq.gz -o ../trimmed/siC_RNH_R1.trim.fastq.gz -O ../trimmed/siC_RNH_R2.trim.fastq.gz --trim_poly_g --cut_tail --cut_tail_window_size 4 --cut_tail_mean_quality 20 --qualified_quality_phred 20 --unqualified_percent_limit 30 --length_required 30 --html ../trimmed/siC_RNH.html --json ../trimmed/siC_RNH.json 
+fastp v1.3.3, time used: 74 seconds
+Read1 before filtering:
+total reads: 83858729
+total bases: 6313092959
+Q20 bases: 5954325079(94.3171%)
+Q30 bases: 5799753828(91.8687%)
+Q40 bases: 0(0%)
+
+Read2 before filtering:
+total reads: 83858729
+total bases: 6317594196
+Q20 bases: 5792976580(91.6959%)
+Q30 bases: 5645822017(89.3666%)
+Q40 bases: 0(0%)
+
+Read1 after filtering:
+total reads: 75572787
+total bases: 5675758225
+Q20 bases: 5479025487(96.5338%)
+Q30 bases: 5361561546(94.4642%)
+Q40 bases: 0(0%)
+
+Read2 after filtering:
+total reads: 75572787
+total bases: 5681464260
+Q20 bases: 5423636001(95.4619%)
+Q30 bases: 5315646045(93.5612%)
+Q40 bases: 0(0%)
+
+Filtering result:
+reads passed filter: 151145574
+reads failed due to low quality: 15205978
+reads failed due to too many N: 11980
+reads failed due to too short: 1278550
+reads failed due to adapter dimer: 75376
+reads with adapter trimmed: 455618
+bases trimmed due to adapters: 10720428
+
+Duplication rate: 59.5911%
+
+Insert size peak (evaluated by paired-end reads): 117
+
+JSON report: ../trimmed/siUAP56_1.json
+HTML report: ../trimmed/siUAP56_1.html
+
+fastp -i siUAP56_1_R1.fastq.gz -I siUAP56_1_R2.fastq.gz -o ../trimmed/siUAP56_1_R1.trim.fastq.gz -O ../trimmed/siUAP56_1_R2.trim.fastq.gz --trim_poly_g --cut_tail --cut_tail_window_size 4 --cut_tail_mean_quality 20 --qualified_quality_phred 20 --unqualified_percent_limit 30 --length_required 30 --html ../trimmed/siUAP56_1.html --json ../trimmed/siUAP56_1.json 
+fastp v1.3.3, time used: 254 seconds
+Read1 before filtering:
+total reads: 79044897
+total bases: 5956999860
+Q20 bases: 5630602382(94.5208%)
+Q30 bases: 5495610463(92.2547%)
+Q40 bases: 0(0%)
+
+Read2 before filtering:
+total reads: 79044897
+total bases: 5957904495
+Q20 bases: 5536740185(92.931%)
+Q30 bases: 5412588359(90.8472%)
+Q40 bases: 0(0%)
+
+Read1 after filtering:
+total reads: 71807556
+total bases: 5395167567
+Q20 bases: 5212886775(96.6214%)
+Q30 bases: 5108528872(94.6871%)
+Q40 bases: 0(0%)
+
+Read2 after filtering:
+total reads: 71807556
+total bases: 5399609374
+Q20 bases: 5209928251(96.4871%)
+Q30 bases: 5121056266(94.8412%)
+Q40 bases: 0(0%)
+
+Filtering result:
+reads passed filter: 143615112
+reads failed due to low quality: 12921512
+reads failed due to too many N: 11902
+reads failed due to too short: 1445424
+reads failed due to adapter dimer: 95844
+reads with adapter trimmed: 643448
+bases trimmed due to adapters: 17000874
+
+Duplication rate: 54.2512%
+
+Insert size peak (evaluated by paired-end reads): 117
+
+JSON report: ../trimmed/siUAP56_2.json
+HTML report: ../trimmed/siUAP56_2.html
+
+fastp -i siUAP56_2_R1.fastq.gz -I siUAP56_2_R2.fastq.gz -o ../trimmed/siUAP56_2_R1.trim.fastq.gz -O ../trimmed/siUAP56_2_R2.trim.fastq.gz --trim_poly_g --cut_tail --cut_tail_window_size 4 --cut_tail_mean_quality 20 --qualified_quality_phred 20 --unqualified_percent_limit 30 --length_required 30 --html ../trimmed/siUAP56_2.html --json ../trimmed/siUAP56_2.json 
+fastp v1.3.3, time used: 248 seconds
+Read1 before filtering:
+total reads: 22302281
+total bases: 1678306376
+Q20 bases: 1572130372(93.6736%)
+Q30 bases: 1534088576(91.4069%)
+Q40 bases: 0(0%)
+
+Read2 before filtering:
+total reads: 22302281
+total bases: 1677657571
+Q20 bases: 1535789514(91.5437%)
+Q30 bases: 1498460278(89.3186%)
+Q40 bases: 0(0%)
+
+Read1 after filtering:
+total reads: 19941682
+total bases: 1496959126
+Q20 bases: 1437419699(96.0226%)
+Q30 bases: 1408545949(94.0938%)
+Q40 bases: 0(0%)
+
+Read2 after filtering:
+total reads: 19941682
+total bases: 1496440477
+Q20 bases: 1435172895(95.9058%)
+Q30 bases: 1409725880(94.2053%)
+Q40 bases: 0(0%)
+
+Filtering result:
+reads passed filter: 39883364
+reads failed due to low quality: 4289474
+reads failed due to too many N: 23486
+reads failed due to too short: 402042
+reads failed due to adapter dimer: 6196
+reads with adapter trimmed: 103068
+bases trimmed due to adapters: 2113852
+
+Duplication rate: 26.794%
+
+Insert size peak (evaluated by paired-end reads): 117
+
+JSON report: ../trimmed/siUAP56_RNH.json
+HTML report: ../trimmed/siUAP56_RNH.html
+
+fastp -i siUAP56_RNH_R1.fastq.gz -I siUAP56_RNH_R2.fastq.gz -o ../trimmed/siUAP56_RNH_R1.trim.fastq.gz -O ../trimmed/siUAP56_RNH_R2.trim.fastq.gz --trim_poly_g --cut_tail --cut_tail_window_size 4 --cut_tail_mean_quality 20 --qualified_quality_phred 20 --unqualified_percent_limit 30 --length_required 30 --html ../trimmed/siUAP56_RNH.html --json ../trimmed/siUAP56_RNH.json 
+fastp v1.3.3, time used: 68 seconds

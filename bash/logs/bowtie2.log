@@ -1,0 +1,153 @@
+[WARNING] Failed to launch x86-64-v3 version, staying with default
+[WARNING] Failed to launch x86-64-v3 version, staying with default
+59469386 reads; of these:
+  59469386 (100.00%) were paired; of these:
+    1522537 (2.56%) aligned concordantly 0 times
+    6188105 (10.41%) aligned concordantly exactly 1 time
+    51758744 (87.03%) aligned concordantly >1 times
+    ----
+    1522537 pairs aligned concordantly 0 times; of these:
+      85639 (5.62%) aligned discordantly 1 time
+    ----
+    1436898 pairs aligned 0 times concordantly or discordantly; of these:
+      2873796 mates make up the pairs; of these:
+        1396688 (48.60%) aligned 0 times
+        497999 (17.33%) aligned exactly 1 time
+        979109 (34.07%) aligned >1 times
+98.83% overall alignment rate
+[WARNING] Failed to launch x86-64-v3 version, staying with default
+[WARNING] Failed to launch x86-64-v3 version, staying with default
+58878587 reads; of these:
+  58878587 (100.00%) were paired; of these:
+    1100419 (1.87%) aligned concordantly 0 times
+    5158832 (8.76%) aligned concordantly exactly 1 time
+    52619336 (89.37%) aligned concordantly >1 times
+    ----
+    1100419 pairs aligned concordantly 0 times; of these:
+      62929 (5.72%) aligned discordantly 1 time
+    ----
+    1037490 pairs aligned 0 times concordantly or discordantly; of these:
+      2074980 mates make up the pairs; of these:
+        1079438 (52.02%) aligned 0 times
+        374645 (18.06%) aligned exactly 1 time
+        620897 (29.92%) aligned >1 times
+99.08% overall alignment rate
+[WARNING] Failed to launch x86-64-v3 version, staying with default
+[WARNING] Failed to launch x86-64-v3 version, staying with default
+31699363 reads; of these:
+  31699363 (100.00%) were paired; of these:
+    1125010 (3.55%) aligned concordantly 0 times
+    5486525 (17.31%) aligned concordantly exactly 1 time
+    25087828 (79.14%) aligned concordantly >1 times
+    ----
+    1125010 pairs aligned concordantly 0 times; of these:
+      39692 (3.53%) aligned discordantly 1 time
+    ----
+    1085318 pairs aligned 0 times concordantly or discordantly; of these:
+      2170636 mates make up the pairs; of these:
+        1096365 (50.51%) aligned 0 times
+        287323 (13.24%) aligned exactly 1 time
+        786948 (36.25%) aligned >1 times
+98.27% overall alignment rate
+[WARNING] Failed to launch x86-64-v3 version, staying with default
+[WARNING] Failed to launch x86-64-v3 version, staying with default
+53066951 reads; of these:
+  53066951 (100.00%) were paired; of these:
+    2692907 (5.07%) aligned concordantly 0 times
+    9437408 (17.78%) aligned concordantly exactly 1 time
+    40936636 (77.14%) aligned concordantly >1 times
+    ----
+    2692907 pairs aligned concordantly 0 times; of these:
+      93620 (3.48%) aligned discordantly 1 time
+    ----
+    2599287 pairs aligned 0 times concordantly or discordantly; of these:
+      5198574 mates make up the pairs; of these:
+        3741811 (71.98%) aligned 0 times
+        584968 (11.25%) aligned exactly 1 time
+        871795 (16.77%) aligned >1 times
+96.47% overall alignment rate
+[WARNING] Failed to launch x86-64-v3 version, staying with default
+[WARNING] Failed to launch x86-64-v3 version, staying with default
+58826648 reads; of these:
+  58826648 (100.00%) were paired; of these:
+    1975960 (3.36%) aligned concordantly 0 times
+    9707672 (16.50%) aligned concordantly exactly 1 time
+    47143016 (80.14%) aligned concordantly >1 times
+    ----
+    1975960 pairs aligned concordantly 0 times; of these:
+      116215 (5.88%) aligned discordantly 1 time
+    ----
+    1859745 pairs aligned 0 times concordantly or discordantly; of these:
+      3719490 mates make up the pairs; of these:
+        2049487 (55.10%) aligned 0 times
+        646192 (17.37%) aligned exactly 1 time
+        1023811 (27.53%) aligned >1 times
+98.26% overall alignment rate
+[WARNING] Failed to launch x86-64-v3 version, staying with default
+[WARNING] Failed to launch x86-64-v3 version, staying with default
+22163139 reads; of these:
+  22163139 (100.00%) were paired; of these:
+    1738091 (7.84%) aligned concordantly 0 times
+    8070439 (36.41%) aligned concordantly exactly 1 time
+    12354609 (55.74%) aligned concordantly >1 times
+    ----
+    1738091 pairs aligned concordantly 0 times; of these:
+      20095 (1.16%) aligned discordantly 1 time
+    ----
+    1717996 pairs aligned 0 times concordantly or discordantly; of these:
+      3435992 mates make up the pairs; of these:
+        2784947 (81.05%) aligned 0 times
+        167768 (4.88%) aligned exactly 1 time
+        483277 (14.07%) aligned >1 times
+93.72% overall alignment rate
+[WARNING] Failed to launch x86-64-v3 version, staying with default
+[WARNING] Failed to launch x86-64-v3 version, staying with default
+75572787 reads; of these:
+  75572787 (100.00%) were paired; of these:
+    3787889 (5.01%) aligned concordantly 0 times
+    19386382 (25.65%) aligned concordantly exactly 1 time
+    52398516 (69.34%) aligned concordantly >1 times
+    ----
+    3787889 pairs aligned concordantly 0 times; of these:
+      183427 (4.84%) aligned discordantly 1 time
+    ----
+    3604462 pairs aligned 0 times concordantly or discordantly; of these:
+      7208924 mates make up the pairs; of these:
+        4281810 (59.40%) aligned 0 times
+        1054293 (14.62%) aligned exactly 1 time
+        1872821 (25.98%) aligned >1 times
+97.17% overall alignment rate
+[WARNING] Failed to launch x86-64-v3 version, staying with default
+[WARNING] Failed to launch x86-64-v3 version, staying with default
+71807556 reads; of these:
+  71807556 (100.00%) were paired; of these:
+    3838875 (5.35%) aligned concordantly 0 times
+    22781972 (31.73%) aligned concordantly exactly 1 time
+    45186709 (62.93%) aligned concordantly >1 times
+    ----
+    3838875 pairs aligned concordantly 0 times; of these:
+      140559 (3.66%) aligned discordantly 1 time
+    ----
+    3698316 pairs aligned 0 times concordantly or discordantly; of these:
+      7396632 mates make up the pairs; of these:
+        4596497 (62.14%) aligned 0 times
+        869932 (11.76%) aligned exactly 1 time
+        1930203 (26.10%) aligned >1 times
+96.80% overall alignment rate
+[WARNING] Failed to launch x86-64-v3 version, staying with default
+[WARNING] Failed to launch x86-64-v3 version, staying with default
+19941682 reads; of these:
+  19941682 (100.00%) were paired; of these:
+    1279013 (6.41%) aligned concordantly 0 times
+    6779905 (34.00%) aligned concordantly exactly 1 time
+    11882764 (59.59%) aligned concordantly >1 times
+    ----
+    1279013 pairs aligned concordantly 0 times; of these:
+      19973 (1.56%) aligned discordantly 1 time
+    ----
+    1259040 pairs aligned 0 times concordantly or discordantly; of these:
+      2518080 mates make up the pairs; of these:
+        1930679 (76.67%) aligned 0 times
+        160038 (6.36%) aligned exactly 1 time
+        427363 (16.97%) aligned >1 times
+95.16% overall alignment rate
